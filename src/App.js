@@ -5,7 +5,9 @@ import LifeCycle from './LifeCycle';
 export default function App() {
   return (
     <>
-      <LifeCycle />
+      <div className="bg">
+        <LifeCycle />
+      </div>
     </>
   );
 }
